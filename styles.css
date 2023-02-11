@@ -100,18 +100,29 @@ button:disabled {
 
 #log li {
   margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.log {
+  font-weight: 900;
 }
 
 .log--player {
-  color: #7700ff;
+  color: orange;
 }
 
 .log--monster {
-  color: #da8d00;
+  color: purple;
 }
 
 .log--damage {
   color: red;
+}
+
+.log--special-damage {
+  color: blue;
 }
 
 .log--heal {
